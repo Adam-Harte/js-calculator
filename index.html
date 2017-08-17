@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+	<h1>JavaScript Calculator</h1>
+	<div id='container'>
+		<form id='calculator'>
+			<input id='result' type='text' value='' disabled/>
+			</br>
+			<input id='key' type='button' value='C' onclick='output("c")'/>
+			<input id='key' type='button' value='CE' onclick='clearEntry()'/>
+			<input id='key' type='button' value='x^2' onclick='squared()'/>
+			<input id='key' type='button' value='+' onclick='output("+")'/>
+			</br>
+			<input id='key' type='button' value='1' onclick='output("1")'/>
+			<input id='key' type='button' value='2' onclick='output("2")'/>
+			<input id='key' type='button' value='3' onclick='output("3")'/>
+			<input id='key' type='button' value='-' onclick='output("-")'/>
+			</br>
+			<input id='key' type='button' value='4' onclick='output("4")'/>
+			<input id='key' type='button' value='5' onclick='output("5")'/>
+			<input id='key' type='button' value='6' onclick='output("6")'/>
+			<input id='key' type='button' value='*' onclick='output("*")'/>
+			</br>
+			<input id='key' type='button' value='7' onclick='output("7")'/>
+			<input id='key' type='button' value='8' onclick='output("8")'/>
+			<input id='key' type='button' value='9' onclick='output("9")'/>
+			<input id='key' type='button' value='/' onclick='output("/")'/>
+			</br>
+			<input id='key' type='button' value='0' onclick='output("0")'/>
+			<input id='key' type='button' value='.' onclick='output(".")'/>
+			<input id='sum' type='button' value='=' onclick='calc()'/>
+		</form>
+	</div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

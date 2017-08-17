@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('http://media.istockphoto.com/photos/working-space-background-picture-id513132398?k=6&m=513132398&s=612x612&w=0&h=41lVc8sJayoT_95SaWe7XkZZqNguJl0FOGG-zzY-uxw=') no-repeat center center;
+background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+#container {
+	margin: 20px auto;
+	width: 300px;
+	height: 270px;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+#calculator {
+	text-align: center;
+}
+
+#result {
+	margin: 15px;
+	width: 240px;
+	height: 30px;
+	text-align: right;
+}
+
+#key {
+	width: 60px;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+#sum {
+	width: 120px;
+	padding: 5px;
+	margin: 5px 0;
+}
